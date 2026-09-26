@@ -18,10 +18,18 @@ DEPEND="
 	dev-libs/wayland
 	gui-libs/wlroots:0.20[X?]
 	x11-libs/cairo
+	x11-libs/libdrm
 	x11-libs/libxkbcommon
 	x11-libs/pango
 	x11-libs/pixman
-	effects? ( gui-libs/scenefx:0.5 )
+	effects? (
+		gui-libs/scenefx:0.5
+		media-libs/libglvnd
+	)
+	X? (
+		x11-libs/libxcb:=
+		x11-libs/xcb-util-wm
+	)
 	wallpaper? ( x11-libs/gdk-pixbuf:2 )
 "
 RDEPEND="
