@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>aerofrutiger3000@gmail.com</email>
+		<name>Guilherme</name>
+	</maintainer>
+	<use>
+		<flag name="effects">Rounded corners and shadows through gui-libs/scenefx, from the GURU overlay</flag>
+		<flag name="wallpaper">Build aropaper, the wallpaper client</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">simeulinuxkaliaiwr/aro</remote-id>
+	</upstream>
+</pkgmetadata>
